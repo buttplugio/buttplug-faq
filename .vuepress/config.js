@@ -1,4 +1,4 @@
-const { description } = require('../../package')
+const { description } = require('../package')
 let date = new Date().toJSON();
 module.exports = {
   host: "localhost",
