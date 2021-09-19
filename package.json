@@ -1,0 +1,19 @@
+{
+  "name": "buttplug-faq",
+  "version": "0.0.1",
+  "description": "FAQ for Buttplug and Intiface",
+  "main": "index.js",
+  "authors": {
+    "name": "Kyle Machulis",
+    "email": "kyle@nonpolynomial.com"
+  },
+  "repository": "https://github.com/buttplugio/buttplug-faq/buttplug-faq",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
