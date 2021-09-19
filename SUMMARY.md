@@ -1,2 +1,0 @@
-- [You, Your Butt, Internet Buttplugs, And You](README.md#you-your-butt-internet-buttplugs-and-you)
-  - [Foreword](foreword.md#foreword)
