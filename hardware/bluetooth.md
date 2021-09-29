@@ -12,7 +12,7 @@ This specific adapter is what our developers use to test the library. That said,
 
 For **macOS** hardware newer than 2012, the on-board radio works well. For pre-2012 macOS hardware, the aforementioned dongle is recommended.
 
-For **Windows and Linux** desktops and laptops, we do not recommend using on-board radios. They usually have less broadcast range (**Note**: Radios that have an external antenna hooked up to them tend to work better, and may be exempt from this). We've also had many issues with the drivers that come with on-board bluetooth radios not working with our software. If you are using a system with an on-board radio and are having issues, we recommend buying the dongle listed above.
+For **Windows and Linux** desktops and laptops, we do not recommend using on-board radios. They usually have less broadcast range (**Note**: Radios that have an external antenna hooked up to them tend to work better, and may be exempt from this). We've also had many issues with the drivers that come with on-board Bluetooth radios not working with our software. If you are using a system with an on-board radio and are having issues, we recommend buying the dongle listed above.
 
 ## Can I use a Bluetooth 5 dongle?
 
@@ -21,20 +21,20 @@ some may work on some platforms, they're new enough that we cannot confirm they 
 everyone, and they have been observed to sometimes cause intermittent scanning and connection
 problems. We recommend all users use BT4 dongles for now.
 
-## Is there any way I can improve my bluetooth connection?
+## Is there any way I can improve my Bluetooth connection?
 
 * Plugging dongles directly into towers/laptops can cause issues with line of sight and signal
-  degredation. We recommend plugging dongles into either an external USB hub.
+  degradation. We recommend plugging dongles into either an external USB hub.
 * Using a USB 2 hub may work better than using a USB 3 hub, as USB 3 hubs tend to emit EMI which can
-  obscure the bluetooth radio.
+  obscure the Bluetooth radio.
 * If you are in a situation where you may be moving around a lot (i.e. VR, cam modeling, etc...),
-  another possible solution is to put a bluetooth USB dongle on the end of a USB extension cable,
+  another possible solution is to put a Bluetooth USB dongle on the end of a USB extension cable,
   and place the dongle near you (or in cases where you're clothed, possibly in a pants pocket if
   available). This may alleviate disconnects and provide a more reliable connection.
 
 In the end, remember: Radios are black magic, and there's only so much anyone can do here.
 
-## Can I use my phone as a bluetooth device relay?
+## Can I use my phone as a Bluetooth device relay?
 
 This is a possibility, but it depends on whether or not the application and hardware you're working
 with support mobile platforms. At the moment, Buttplug only works on web for Android, and requires a
@@ -42,12 +42,12 @@ special browser for iOS. Native Android/iOS apps currently do not support Buttpl
 change in the future.
 
 Some toys, like Lovense, have special apps (like Lovense Connect) that allow users to use their
-phone as the bluetooth connection. If Buttplug/Intiface support this capability, it will be listed
+phone as the Bluetooth connection. If Buttplug/Intiface support this capability, it will be listed
 here in the brand specific questions section.
 
-## I connected my bluetooth device to my phone, but my computer can't see it
+## I connected my Bluetooth device to my phone, but my computer can't see it
 
-If you connected your bluetooth device to your phone before connecting it to your desktop, you may
+If you connected your Bluetooth device to your phone before connecting it to your desktop, you may
 have paired it with your phone, meaning your device will not talk to any other machines. You will
 need to unpair the device with your phone before you try connecting it to your desktop via Intiface
 or other apps.
@@ -56,3 +56,18 @@ Most (but not all) Bluetooth LE devices do not need to be paired with machines i
 them. However, some brands (like WeVibe and Kiiroo) do have hardware that requires pairing. If a
 piece of hardware is required to pair, it will be called out here in the brand specific questions
 section.
+
+## I'm Running Win10 and have a working Bluetooth adapter but Intiface still can't see any devices
+
+Some Bluetooth adapters come with drivers that are compatible with the older device system that's been present in Windows for much longer than the BLE/GATT support added in Win10 (which is what Buttplug/Intiface use to discover and connect to devices). Those older drivers will make the adapter look like it's working in some places but not in Buttplug/Intiface.
+
+The most common offender is the CST driver, but there are Broadcom drivers that have this issue too.
+
+Ideally, you'd have just plugged in the adapter and let Windows auto install the drivers, but that's not always the intuitive thing to do, especially when the packaging for the adapters often tell you to install their drivers. If you did install the vendor supplied drivers, first thing to try is uninstalling them (usually from `Apps and Features`) and then removing and replugging-in the adapter.
+
+### How can I tell if I'm using the wrong driver?
+
+Right-click on the Start/Windows button and select `Device Manager`. This'll show you a tree of all of your computer's hardware. Under the `Bluetooth` you should see a Bluetooth Adapter (the name may vary, as you can see in the the screenshots below); right click the the adapter and select `Properties`, then on the `Driver` tab click the `Driver Details` button. This should list multiple files, but the crucial ones you should expect to see are `bthport.sys` and `BTHUSB.SYS`.
+
+<img src="./devman-cst.png" style="width:25%;" /><img src="./devman-broadcom.png" style="width:25%;" /><img src="./devman-intel.png" style="width:25%;" /><img src="./devman-realtek.png" style="width:25%;" />
+
