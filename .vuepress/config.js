@@ -69,7 +69,7 @@ module.exports = {
           title: 'Intiface',
           collapsable: true,
           children: [
-            '/intiface/',
+            '/intiface/intiface-desktop.md',
           ]
         }
     ]
