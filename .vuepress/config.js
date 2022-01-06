@@ -53,6 +53,7 @@ module.exports = {
           '/hardware/bluetooth.md',
           '/hardware/kiiroo.md',
           '/hardware/lovense.md',
+          '/hardware/satisfyer.md',
           '/hardware/the-handy.md',
           '/hardware/wevibe.md',
         ]
