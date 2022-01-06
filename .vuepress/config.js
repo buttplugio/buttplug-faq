@@ -51,8 +51,9 @@ module.exports = {
         children: [
           '/hardware/',
           '/hardware/bluetooth.md',
-          '/hardware/lovense.md',
           '/hardware/kiiroo.md',
+          '/hardware/lovense.md',
+          '/hardware/the-handy.md',
           '/hardware/wevibe.md',
         ]
       }
