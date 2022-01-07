@@ -62,6 +62,7 @@ If:
 You should be able to go to [https://api.lovense.com/api/lan/getToys](https://api.lovense.com/api/lan/getToys) and see something like
 
 ```json
+{"192-168-1-2.lovense.club":{"deviceId":"connect_a9785218975ba98bd78398712","domain":"192-168-1-2.lovense.club","httpPort":20010,"wsPort":20010,"httpsPort":30010,"wssPort":30010,"toyJson":"{}","platform":"ios","appVersion":"2.6.3","toys":{}}}
 ```
 
 If all you see is
