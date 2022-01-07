@@ -49,7 +49,6 @@ module.exports = {
         title: 'Hardware',
         collapsable: true,
         children: [
-          '/hardware/',
           '/hardware/bluetooth.md',
           '/hardware/kiiroo.md',
           '/hardware/lovense.md',
