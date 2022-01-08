@@ -62,7 +62,7 @@ module.exports = {
           title: 'Buttplug',
           collapsable: true,
           children: [
-            '/buttplug/',
+            '/buttplug/diy-hardware.md',
           ]
         }
       ,
