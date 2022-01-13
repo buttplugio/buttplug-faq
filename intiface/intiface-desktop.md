@@ -48,6 +48,12 @@ If the "Version" field starts with something lower than "20H2", i.e. "1903", "19
 
 [More info on updating to 21H1 is available on the Microsoft Website](https://blogs.windows.com/windowsexperience/2021/05/18/how-to-get-the-windows-10-may-2021-update/)
 
+### Reset your configuration
+
+At the bottom of the _Settings_ panel is a _Reset Intiface Configuration_ button. This will delete all settings and the engine binary and close Intiface Desktop. The next time you open Intiface Desktop, you'll go through the first time setup again.
+
+If you are getting a white screen when starting desktop, or weird crashes that don't fit the above description, this is worth trying.
+
 ### If neither of these applies
 
 If your version of windows is up to date, and you don't have anything conflicting with ports, there may be some other issue in the software that needs to be fixed. [Please check the front page of the FAQ](/) for more information on how to get ahold of the development team for more help.
