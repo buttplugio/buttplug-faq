@@ -14,7 +14,7 @@ However, **some toys from [WeVibe](./wevibe.md) and [Satisfyer](./satisfyer.md)*
 
 For **macOS** hardware newer than 2012, the on-board radio works well. For pre-2012 macOS hardware, the aforementioned dongle is recommended.
 
-For **Windows and Linux** desktops and laptops, we do not recommend using on-board radios. They usually have less broadcast range (**Note**: Radios that have an external antenna hooked up to them tend to work better, and may be exempt from this). We've also had many issues with the drivers that come with on-board Bluetooth radios not working with our software. If you are using a system with an on-board radio and are having issues, we recommend buying the dongle listed above.
+For **Windows and Linux** desktops and laptops, we do not recommend using on-board radios unless they have an external antenna. They usually have less broadcast range (**Note**: Radios that have an external antenna hooked up to them tend to work better, and may be exempt from this). We've also had many issues with the drivers that come with on-board Bluetooth radios not working with our software. If you are using a system with an on-board radio and are having issues, we recommend buying the dongle listed above.
 
 ## Can I use a Bluetooth 5 dongle?
 
@@ -35,6 +35,10 @@ problems. We recommend all users use BT4 dongles for now.
   available). This may alleviate disconnects and provide a more reliable connection.
 
 In the end, remember: Radios are black magic, and there's only so much anyone can do here.
+
+## When should I pair my device with my operating system?
+
+You should **NOT NEED TO PAIR** your device with your operating system, unless specifically called out in a hardware brand page on the FAQ (for instance, [WeVibe](hardware/wevibe.md) or [Satisfyer](hardware/satisfyer.md)). Most Bluetooth LE connections are handled by Buttplug and do not require pairing.
 
 ## Can I use my phone as a Bluetooth device relay?
 

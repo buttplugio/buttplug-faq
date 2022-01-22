@@ -6,7 +6,9 @@ First and foremost: **WHICHEVER ANSWER YOU CHOOSE HERE, ONLY CHOOSE ONE. USING M
 
 ### Bluetooth Dongle
 
-As with most of our toy support, we recommend using a regular Bluetooth LE Dongle with Lovense toys. The specific dongle we recommend is in the Bluetooth section of this FAQ. Bluetooth Dongles are the most reliable and usually least laggy way to access toys.
+As with most of our toy support, we recommend using a regular Bluetooth LE Dongle with Lovense toys. The specific dongle we recommend is in the [Bluetooth section of this FAQ](hardware/bluetooth.md). Bluetooth Dongles are the most reliable and usually least laggy way to access toys.
+
+While the Lovense website says that the Lovense Dongle is required to use for Lovense Toys on desktops, this is only true for applications made by Lovense. Buttplug can use regular Bluetooth 4.0 dongles to communicate with Lovense toys without issues.
 
 ### Lovense Connect
 
@@ -42,6 +44,17 @@ The reason that Lovense put the dongle out is that both Serial and HID are handl
 But if you're the kind of nerd that reads this whole section and understood it, just use fucking Bluetooth, ok?
 
 :::
+
+## I get a "rx endpoint not found" error with Lovense Toys
+
+This can be one of a few things:
+
+- You are trying to connect to a Lovense Toy with both Bluetooth and Lovense Dongle support turned
+  on, and your computer has both available. This will cause Bluetooth and the Lovense Dongle to race
+  each other to connect to devices and can cause errors. We recommend either unselecting the "Lovense HID/Serial Dongle" support in Intiface Desktop, or else unplugging the Lovense Dongle completely.
+- You are using a Bluetooth 5.0 dongle on Windows 10. Windows 10 unfortunately has really bad
+  default drivers for Bluetooth 5.0 at the moment, which causes a lot of issues, including this "rx
+  endpoint not found" issue. [We recommend using a Bluetooth 4.0 dongle like the one linked here.](hardware/bluetooth.md)
 
 ## I can't get Intiface/Buttplug to find Lovense Connect devices
 
