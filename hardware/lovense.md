@@ -49,12 +49,9 @@ But if you're the kind of nerd that reads this whole section and understood it, 
 
 This can be one of a few things:
 
-- You are trying to connect to a Lovense Toy with both Bluetooth and Lovense Dongle support turned
-  on, and your computer has both available. This will cause Bluetooth and the Lovense Dongle to race
-  each other to connect to devices and can cause errors. We recommend either unselecting the "Lovense HID/Serial Dongle" support in Intiface Desktop, or else unplugging the Lovense Dongle completely.
-- You are using a Bluetooth 5.0 dongle on Windows 10. Windows 10 unfortunately has really bad
-  default drivers for Bluetooth 5.0 at the moment, which causes a lot of issues, including this "rx
-  endpoint not found" issue. [We recommend using a Bluetooth 4.0 dongle like the one linked here.](hardware/bluetooth.md)
+- You are trying to connect to a Lovense Toy with both Bluetooth and Lovense Dongle support turned on, and your computer has both available. This will cause Bluetooth and the Lovense Dongle to race each other to connect to devices and can cause errors. We recommend either unselecting the "Lovense HID/Serial Dongle" support in Intiface Desktop, or else unplugging the Lovense Dongle completely.
+- You are using a Bluetooth 5.0 dongle on Windows 10. Windows 10 unfortunately has really bad default drivers for Bluetooth 5.0 at the moment, which causes a lot of issues, including this "rx endpoint not found" issue. [We recommend using a Bluetooth 4.0 dongle like the one linked here.](hardware/bluetooth.md)
+- You have paired your Lovense toy using the operating system bluetooth dialog (this usually happens on Windows). Make sure the toy is not paired to the operating system, Buttplug/Intiface will handle finding and connecting to the toy without it being paired.
 
 ## I can't get Intiface/Buttplug to find Lovense Connect devices
 
