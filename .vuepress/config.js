@@ -71,6 +71,8 @@ module.exports = {
           collapsable: true,
           children: [
             '/intiface/intiface-desktop.md',
+            '/intiface/intiface-central.md',
+            '/intiface/ghr.md',
           ]
         }
     ]
