@@ -84,6 +84,13 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    [
+      "vuepress-plugin-matomo",
+      {
+        'siteId': 5,
+        'trackerUrl': "https://nonpolynomial.matomo.cloud/"
+      }
+    ],
   ],
   head: [
     ['link', { rel: 'icon', href: '/buttplug.svg' }],
