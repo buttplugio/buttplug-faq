@@ -4,7 +4,7 @@
 
 Satisfyer devices are unfortunately somewhat finnicky to connect to a desktop/laptop versus phones, because of their increased security requirements.
 
-First and foremost, Windows/Linux users will need to use a Cambridge Silicon Radio bluetooth dongle. Dongles with other radio brands (Broadcomm, Intel, RealTek, etc...) have been found to possibly connect but not communicate with Satisfyer devices.
+First and foremost, Windows/Linux users will need to use a [Cambridge Silicon Radio bluetooth dongle](./bluetooth.md#what-type-of-bluetooth-dongle-should-i-use). Dongles with other radio brands (Broadcomm, Intel, RealTek, etc...) have been found to possibly connect but not communicate with Satisfyer devices.
 
 _All Satisfyer devices must be paired with the operating system._ This means that you will need to go into the bluetooth dialog of your operating system to pair the device. No PIN code should be required, and devices should show up as either "SF [device name]", though they may also just show up as "Unknown Device" and then show their name after pairing. If your device refuses to pair, it may be due to it being paired to another device, such as your mobile phone, or another desktop. Satisfyer toys offer a way to reset pairing by holding down a certain button on the device. Each device has a different button for this, so check your manual for the _Factory Reset Button_ information for your specific toy.
 
