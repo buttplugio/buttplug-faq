@@ -2,11 +2,16 @@
 
 ## What type Of Bluetooth dongle should I use?
 
-You will need a Bluetooth 4 adapter of some kind. For Windows 10 and Linux desktops, we usually recommend the following adapter (Amazon US link, availability may differ in other countries):
+You will need a Bluetooth 4 adapter of some kind. For Windows 10 and Linux desktops, we usually recommend the following adapter (Amazon links below, availability may differ in other countries):
 
-[https://www.amazon.com/Onvian-Bluetooth-Receiver-Transfer-Wireless/dp/B07G9TSDCG/ref=dp_prsubs_1?pd_rd_i=B07G9TSDCG&psc=1](https://www.amazon.com/Onvian-Bluetooth-Receiver-Transfer-Wireless/dp/B07G9TSDCG/ref=dp_prsubs_1?pd_rd_i=B07G9TSDCG&psc=1)
+[Onvian USB Bluetooth Adapter CSR 4.0 Dongle Receiver (US Amazon)](https://www.amazon.com/Onvian-Bluetooth-Receiver-Transfer-Wireless/dp/B07G9TSDCG/)
 
-This specific adapter is what our developers use to test the library. That said, most Bluetooth 4 dongles should work fine for most toys.
+This specific adapter is what our developers use to test the library and has the USB identifiers of [Vendor ID 0A12 and Device ID 0001](https://the-sz.com/products/usbid/index.php?v=VID_0A12&p=PID_0001). That said, most Bluetooth 4 dongles should work fine for most toys.
+
+Other countries may have luck with searching "CSR 4.0 bluetooth dongle", as this is a commonly used chipset:
+- [USB Bluetooth 4.0 Adapter, Techkey Bluetooth Dongle CSR 4.0 Bluetooth Empfänger Transmitter (Amazon Germany)](https://www.amazon.de/Techkey-Bluetooth-Computer-Skype-Anruf-unterst%C3%BCtzt/dp/B07QL7C6WG)
+- [Onvian Bluetooth Adapter USB CSR 4.0 Dongle Receiver (Amazon Australia)](https://www.amazon.com.au/Onvian-Bluetooth-Receiver-Transfer-Wireless/dp/B077Z27FTS)
+
 
 However, **some toys from [WeVibe](./wevibe.md) and [Satisfyer](./satisfyer.md)** require dongles with a specific brand of radio. The dongle above should work for them, but other dongles may not. For more info on these devices, see their brand specific sections of the FAQ.
 
