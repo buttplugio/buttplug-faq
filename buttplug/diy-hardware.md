@@ -2,7 +2,7 @@
 
 The following section presents an extremely rough, vague guide to getting Buttplug working with DIY hardware. This is not a full overview of implementing hardware with Buttplug, but rather enough information to know what questions to ask when approaching Buttplug devs. We recommend also being familiar with the architecture of the library as laid out in the [Buttplug Developer Guide](https://buttplug-developer-guide.docs.buttplug.io) to completely grasp how hardware integrates with the library and systems.
 
-Note that in many cases for toys that have common acutation methods (vibration/stroking/etc), **new hardware does not require changes being made to the library and no knowledge of Rust is needed**.
+Note that in many cases for toys that have common actuation methods (vibration/stroking/etc), **new hardware does not require changes being made to the library and no knowledge of Rust is needed**.
 
 ## What should I know before asking about Buttplug Support for my Hardware?
 
