@@ -4,9 +4,9 @@
 
 You will need a Bluetooth 4 adapter of some kind. For Windows 10 and Linux desktops, we usually recommend the following adapter (Amazon links below, availability may differ in other countries):
 
-[Onvian USB Bluetooth Adapter CSR 4.0 Dongle Receiver (US Amazon)](https://www.amazon.com/Onvian-Bluetooth-Receiver-Transfer-Wireless/dp/B07G9TSDCG/)
+[TP-Link UB400](https://www.amazon.com/TP-Link-Bluetooth-Supports-Keyboard-Controllers/dp/B08YFP44SJ)
 
-This specific adapter is what our developers use to test the library and has the USB identifiers of [Vendor ID 0A12 and Device ID 0001](https://the-sz.com/products/usbid/index.php?v=VID_0A12&p=PID_0001). That said, most Bluetooth 4 dongles should work fine for most toys.
+This specific adapter is what our developers use to test the library. That said, most Bluetooth 4 dongles should work fine for most toys.
 
 Other countries may have luck with searching "CSR 4.0 bluetooth dongle", as this is a commonly used chipset:
 - [USB Bluetooth 4.0 Adapter, Techkey Bluetooth Dongle CSR 4.0 Bluetooth Empfänger Transmitter (Amazon Germany)](https://www.amazon.de/Techkey-Bluetooth-Computer-Skype-Anruf-unterst%C3%BCtzt/dp/B07QL7C6WG)
